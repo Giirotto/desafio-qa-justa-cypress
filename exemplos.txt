@@ -1,0 +1,11 @@
+npx cypress open //para abrir a interface gráfica do cypress
+
+cy.viewport(1440, 900) //alterar a resolução
+
+cy.visit('https://youtube.com') //acessar um site
+
+cy.get('elemento html').should('have text', 'Texto a ser validado') //validação de texto
+
+it('Nome do caso de testes', ()=> {
+        //para criar um novo caso de testes
+})

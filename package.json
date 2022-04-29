@@ -1,0 +1,14 @@
+{
+  "name": "desafio-qa-justa-cypress",
+  "version": "1.0.0",
+  "description": "Projeto de automação de uma rotina de compra",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Raffael Girotto",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  }
+}
